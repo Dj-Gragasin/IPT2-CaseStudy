@@ -80,6 +80,9 @@ nav a:hover {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .member-card h2 {
@@ -94,7 +97,7 @@ nav a:hover {
 
 .spring { border-top: 8px solid #81c784; }
 .summer { border-top: 8px solid #fdd835; }
-.autumn { border-top: 8px solid #ef6c00; }
+.fall { border-top: 8px solid #ef6c00; }
 .winter { border-top: 8px solid #4fc3f7; }
 
 footer {
@@ -185,3 +188,25 @@ nav a.active {
   color: #fffa9e;
   text-decoration: underline;
 }
+
+.back-button {
+  text-align: center;
+  margin: 25px 0 -10px 0;
+}
+
+.back-button a {
+  display: inline-block;
+  background-color: #3b7a57;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-button a:hover {
+  background-color: #2f5d42;
+  transform: translateY(-2px);
+}
+
