@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Lloyd - Portfolio</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #b7e4c7 0%, #d8f3dc 50%, #f1faee 100%);
+      color: #2d3436;
+      line-height: 1.6;
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+    }
+
+   
+    header {
+      background: linear-gradient(120deg, #a7f3d0, #bde0fe);
+      text-align: center;
+      padding: 60px 20px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      border-bottom: 4px solid #74c69d;
+      position: relative;
+      z-index: 3;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      color: #1b4332;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: #40916c;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.6);
+      padding: 10px 20px;
+      border-radius: 50px;
+      display: inline-block;
+      backdrop-filter: blur(6px);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #1b4332;
+      font-weight: bold;
+      margin: 0 15px;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff7eb9;
+      transform: scale(1.1);
+    }
+
+    section {
+      background: #ffffffcc;
+      margin: 40px auto;
+      padding: 30px;
+      max-width: 850px;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(100, 180, 120, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      z-index: 3;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(90, 160, 90, 0.25);
+    }
+
+    h2 {
+      color: #2d6a4f;
+      border-left: 6px solid #95d5b2;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .profile {
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #b9fbc0;
+      box-shadow: 0 4px 8px rgba(150, 150, 150, 0.2);
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-pic:hover {
+      transform: scale(1.05);
+    }
+
+    .profile p {
+      max-width: 600px;
+      margin: 10px auto;
+      color: #2d3436;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #e9f5ec;
+      margin: 8px 0;
+      padding: 10px 15px;
+      border-left: 6px solid #74c69d;
+      border-radius: 12px;
+      transition: background 0.3s;
+    }
+
+    li:hover {
+      background: #d8f3dc;
+    }
+
+    a {
+      color: #1b4332;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ff69b4;
+      text-decoration: underline;
+    }
+
+ 
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #b7e4c7;
+      color: #1b4332;
+      border-top: 4px solid #74c69d;
+      font-size: 0.95em;
+      position: relative;
+      z-index: 3;
+    }
+
+   
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Lloyd L. Pacanas</h1>
+    <p>Information Technology Student</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="profile">
+    <img src="jl.jfif" alt="John Lloyd Pacanas Photo" class="profile-pic" />
+    <h2>About Me</h2>
+    <p>
+      Hello! I am <strong>John Lloyd L. Pacanas</strong>, an IT student passionate about web development and programming. 
+      I’m 22 years old from Balite, Pura, Tarlac. I love learning new technologies and creating websites that are clean,
+      functional, and beautiful—just like spring!🌿🦋
+    </p>
+  </section>
+
+  <section class="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>BS in Information Technology</strong> – Tarlac State University (2022 - Present)</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Database Management</li>
+      <li>Git and GitHub</li>
+      <li>Web Design & UI/UX Basics</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Smart Waste Management System</li>
+      <li>Resort Booking System (Surfside Haven)</li>
+      <li>Personal Portfolio Website</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:johnlloydpacanas1@gmail.com">johnlloydpacanas1@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/pacanasjohnlloyd" target="_blank">github.com/pacanasjohnlloyd</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 John Lloyd L. Pacanas | Portfolio Page 🌿🦋</p>
+  </footer>
+
+  
+
+  
+</body>
+</html>
